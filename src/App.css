@@ -1,0 +1,122 @@
+body {
+  margin: 0;
+}
+
+h2 {
+  font-weight: 760;
+}
+
+p, h2, h4 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.title-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background: #f0f0f0;
+  width: 100%;
+  border-bottom: 7px solid #ffcc00;
+}
+
+.name-role-container p {
+  font-size: 1.25rem;
+}
+
+.title-container div {
+  padding: 3rem;
+}
+
+.person-profile-container {
+  display: flex;
+  flex-direction: row;
+  padding: 3rem;
+  border-bottom: 0.1rem solid black;
+  width: 87%;
+  margin: auto;
+}
+
+.person-profile-container h2 {
+  font-style: italic;
+  font-size: 1.35rem;
+  font-weight: bolder;
+}
+
+.person-profile-header-container {
+  width: 65%;
+  margin-right: 2rem;
+}
+
+.person-profile-container p {
+  text-align: left;
+}
+
+.work-experience-container {
+  display: flex;
+  flex-direction: row;
+  border-bottom: 0.1rem solid black;
+  width: 87%;
+  padding: 3rem;
+  margin: auto;
+}
+
+.work-experience-container h2 {
+  font-style: italic;
+}
+
+.work-experience-header-container {
+  width: 65%;
+  margin-right: 1rem;
+}
+
+.work-experience-content-container {
+  text-align: left;
+}
+
+.key-skills-container {
+  display: flex;
+  flex-direction: row;
+  border-bottom: 0.1rem solid black;
+  width: 87%;
+  padding: 3rem;
+  margin: auto;
+}
+
+.key-skills-header-container {
+  width: 42%;
+  margin-right: 1rem;
+}
+
+.skill-lists-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.skill-lists-container li {
+  list-style-type: none;
+}
+
+
+.education-container {
+  display: flex;
+  flex-direction: row;
+  border-bottom: 0.1rem solid black;
+  width: 87%;
+  padding: 3rem;
+  margin: auto;
+}
+
+.education-exp-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.education-header-container {
+  width: 45%;
+}
